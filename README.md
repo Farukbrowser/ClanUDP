@@ -1,5 +1,5 @@
 
-**voltsshX-Ultimate** - ```an easy to use script!```
+**ClanUDP Scripts by 24clan.NET** - ```an easy to use script!```
 
 
   > ```made with 🤍 from Boomerang Nebula```
@@ -56,9 +56,9 @@ curl -sSL https://kutt.it/voltsshxultimate -o inst.sh && bash inst.sh
 #### Telegram 
  > [💲 Pay](https://t.me/voltverifybot) - ```Keys & Payment```
 
- > [👨🏽‍💻 𝚟𝚘𝚕𝚝𝚜𝚜𝚑 𝕏](https://t.me/faruk_browser) - ```Admin```
+ > [👨🏽‍💻 Farukbrowser](https://t.me/faruk_browser) - ```Admin```
 
- > [📣 𝚅𝚘𝚕𝚝𝚂𝚂𝙷 𝙷𝚀 ⚝](https://t.me/clannet) - ```Channel```
+ > [📣 ClanUDP Telegram Channel ⚝](https://t.me/clannet) - ```Channel```
 
 #### Credit
 - All binary owners
