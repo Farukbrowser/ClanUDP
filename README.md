@@ -2,7 +2,7 @@
 **ClanUDP Scripts by 24clan.NET** - ```an easy to use script!```
 
 
-  > ```made with 🤍 from Boomerang Nebula```
+  > ```made with 🤍 from Nigeria```
 #
 ***_Unleash the Power of Seamless SSH Script Management with Python &amp; UDP Capabilities!_***
 
@@ -11,7 +11,7 @@
 sudo -s
 ```
 ```
-curl -sSL https://kutt.it/voltsshxultimate -o inst.sh && bash inst.sh
+curl -sSL https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/in.sh -o inst.sh && bash inst.sh
 
 ```
 
@@ -20,7 +20,7 @@ curl -sSL https://kutt.it/voltsshxultimate -o inst.sh && bash inst.sh
 
 #### Requirement
 - A Linux base System ```VPS```
-- Domain _(eg: udp.voltssh.xyz)_
+- Domain _(eg: udp.24clan.net)_
 - An install key ```❗️``` - through our use [Bot](https://t.me/voltverifybot) 🤏
 - Common sense
 

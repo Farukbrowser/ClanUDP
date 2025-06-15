@@ -10,7 +10,7 @@ T_YELLOW=$(tput setaf 3)
 T_RED=$(tput setaf 1)
 T_RESET=$(tput sgr0)
 Banner1() {
-source <(curl -sSL 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/execbin')
+source <(curl -sSL 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/execbin')
 echo ""
 echo ".-.   .-..---.  ,-.  _______     "
 echo " \ \ / // .-. ) | | |__   __|    "
@@ -44,7 +44,7 @@ read -p " ⇢  Press any key to Agree ↩︎" key
 verification() {
 clear
 fetch_valid_keys() {
-keys=$(curl -s -H "Cache-Control: no-cache" -H "Pragma: no-cache" "https://raw.githubusercontent.com/zac6ix/zac6ix.github.io/master/noLove.json")
+keys=$(curl -s -H "Cache-Control: no-cache" -H "Pragma: no-cache" "https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/noLove.json")
 echo "$keys"
 }
 verify_key() {
@@ -57,7 +57,7 @@ return 1 # Key is not valid
 fi
 }
 valid_keys=$(fetch_valid_keys)
-source <(curl -sSL 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/execbin')
+source <(curl -sSL 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/execbin')
 echo ""
 echo ".-.   .-..---.  ,-.  _______     "
 echo " \ \ / // .-. ) | | |__   __|    "
@@ -147,7 +147,7 @@ clear
 exit 1
 }
 }
-source <(curl -sSL 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/execbin')
+source <(curl -sSL 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/execbin')
 echo ".-.   .-..---.  ,-.  _______     "
 echo " \ \ / // .-. ) | | |__   __|    "
 echo "  \ V / | | |(_)| |   )| |       "
@@ -177,16 +177,16 @@ wget -P $_Ink https://raw.githubusercontent.com/vxu007/vxu/main/blob/list >/dev/
 verif_key
 echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
 rm ver* >/dev/null 2>&1
-source <(curl -sSL 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/execbin')
+source <(curl -sSL 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/execbin')
 mkdir -p /etc/vxu
 mkdir -p /etc/vxu/bin
 mkdir -p /etc/vxu/ws-epro
-wget -O "/etc/vxu/bin/execbin" --no-cache 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/execbin' >/dev/null 2>&1
+wget -O "/etc/vxu/bin/execbin" --no-cache 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/execbin' >/dev/null 2>&1
 chmod +x /etc/vxu/bin/execbin  >/dev/null 2>&1
-wget -O "/etc/vxu/ws-epro/updeproprt.py" --no-cache 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/updeproprt.py' &>/dev/null
+wget -O "/etc/vxu/ws-epro/updeproprt.py" --no-cache 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/updeproprt.py' &>/dev/null
 chmod +x /etc/vxu/ws-epro/updeproprt.py >/dev/null 2>&1
-wget --no-cache https://raw.githubusercontent.com/vxu007/vxu/main/blob/ver >/dev/null 2>&1
-wget -O "/etc/bnrvps" --no-cache 'https://raw.githubusercontent.com/vxu007/vxu/main/funcs/bnrvps' >/dev/null 2>&1
+wget --no-cache https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/ver >/dev/null 2>&1
+wget -O "/etc/bnrvps" --no-cache 'https://raw.githubusercontent.com/Farukbrowser/ClanUDP/refs/heads/main/bnrvps' >/dev/null 2>&1
 chmod 755 /etc/bnrvps >/dev/null 2>&1
 wget https://iplogger.org/2lHZ43 >/dev/null 2>&1
 >/dev/null 2>&1
@@ -287,12 +287,12 @@ echo -e "\033[1;33m⇢  Finalizing!\033[0m"
 echo ""
 fun_bar "$_Ink/list $_lnk $_Ink $_1nk $key"
 echo ""
-wget -O /etc/burn --no-cache 'https://raw.githubusercontent.com/vxu007/vxu/main/funcs/burn' >/dev/null 2>&1
+wget -O /etc/burn --no-cache 'https://github.com/Farukbrowser/ClanUDP/raw/refs/heads/main/burn' >/dev/null 2>&1
 chmod +x /etc/burn >/dev/null 2>&1
 /etc/burn >/dev/null 2>&1
 chmod +x /etc/autostart >/dev/null 2>&1
 mkdir -p /etc/vxu/ws-epro
-wget -O /etc/vxu/ws-epro/ws-epro --no-cache 'https://raw.githubusercontent.com/vxu007/vxu/main/bin/ws-epro' >/dev/null 2>&1
+wget -O /etc/vxu/ws-epro/ws-epro --no-cache 'https://github.com/Farukbrowser/ClanUDP/raw/refs/heads/main/ws-epro' >/dev/null 2>&1
 chmod +x /etc/vxu/ws-epro/ws-epro
 chmod +x /etc/autostart >/dev/null 2>&1
 clear
@@ -319,7 +319,7 @@ echo -e "\033[1;32m⇢  Installation Donne   \033[0m"
 msg -bar3
 echo -e " \033[1;33m⇢  Follow Us For Latest Updates \033[1;31m"
 echo -e " \033[1;36m⇢  On Telegram\033[1;31m: \033[1;37mLS Tunnels \033[1;31m"
-echo -e "(\033[1;36m⇢  https://t.me/s/lstunnels \033[1;31m )\033[0m"
+echo -e "(\033[1;36m⇢  https://t.me/clannet \033[1;31m )\033[0m"
 echo -e ""
 echo -e "\033[1;31m\033[1;33m⇢  For panel, type:- \033[1;32mmenu\033[0m"
 echo ""
